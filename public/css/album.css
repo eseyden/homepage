@@ -39,7 +39,7 @@ footer p {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 .lead-jumbotron {
-    background-image: url(../img/spring.png);
+    background-image: url(../img/spring.jpg);
     background-size: cover;
     background-position: center;
 }

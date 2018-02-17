@@ -18,8 +18,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <div class="card-header"><h2>Software Development</h2></div>
-                        <img class="card-img-top" src="{{ asset('img/telecom.jpg') }}" alt="Telecommunications Wires">
+                        <div class="card-header"><h2>App Development</h2></div>
+                        <img class="card-img-top" src="{{ asset('img/pipes.jpg') }}" alt="Telecommunications Wires">
                         <div class="card-body">
                             <p class="card-text">
                                 Checkout some of the technologies that I use to get business done.

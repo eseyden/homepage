@@ -5,9 +5,9 @@
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">About</h4>
                     <p class="text-muted">
-                        I'm a loving husband, proud father and senior web applications developer for the University of Montana.
+                        Loving husband, proud father, and senior web applications developer for the University of Montana.
 
-                        I enjoy helping students and other professionals realize their talent for making a more connected world while getting business done.
+                        I enjoy helping students and professionals build a more connected and just world.
                     </p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">

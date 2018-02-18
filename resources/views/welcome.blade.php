@@ -1,4 +1,4 @@
-@extends('layout.welcome')
+@extends('layouts.welcome')
 @section('main')
     <section class="jumbotron text-center lead-jumbotron text-light">
         <div class="container lead-container rounded">

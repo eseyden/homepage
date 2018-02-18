@@ -20,12 +20,13 @@
 
 <body>
 
-@include('layout.partials.header')
+@include('layouts.partials.header')
 
 <main role="main">
     @yield('main')
-
-
+    <div class="py-4">
+        @yield('content')
+    </div>
 </main>
 
 <footer class="text-muted">

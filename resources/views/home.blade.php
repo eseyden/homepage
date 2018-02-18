@@ -2,7 +2,7 @@
 @section('main')
     <section class="jumbotron text-center lead-jumbotron text-light">
         <div class="container lead-container rounded">
-            <h1 class="jumbotron-heading">Eric Seyden's Homepage</h1>
+            <h1 class="jumbotron-heading">Eric Seyden</h1>
             <p class="lead text-light">
                 This is my personal lab where I try out new and interesting things while sharing a bit with the world along the way.
             </p>

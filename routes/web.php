@@ -13,3 +13,6 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
+Route::view('sandbox','sandbox');
+
+Route::get('api/count','VisitApiController@count');

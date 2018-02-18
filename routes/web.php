@@ -14,7 +14,7 @@
 Route::view('/', 'welcome');
 
 Route::get('api/count','VisitApiController@count');
-Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
+Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider')->name('oauth-login');
 Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
 Auth::routes();
 

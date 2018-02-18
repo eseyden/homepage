@@ -62,6 +62,16 @@
                         </div>
                     </form>
                 </div>
+                <div class="card-footer vol-ctr d-flex justify-content-around">
+                    <a href="{{route('oauth-login',['provider'=>'facebook'])}}" class="btn btn-primary">
+                        <i class="fab fa-facebook"></i>
+                        Log In With Facebook
+                    </a>
+                    <a href="{{route('oauth-login',['provider'=>'twitter'])}}" class="btn btn-primary">
+                        <i class="fab fa-twitter"></i>
+                        Log In With Twitter
+                    </a>
+                </div>
             </div>
         </div>
     </div>

@@ -1,95 +1,72 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.welcome')
+@section('main')
+    <section class="jumbotron text-center lead-jumbotron text-light">
+        <div class="container lead-container rounded">
+            <h1 class="jumbotron-heading">Eric Seyden</h1>
+            <p class="lead text-light">
+                This is my personal lab where I try out new and interesting things while sharing a bit with the world along the way.
+            </p>
+            <p>
+                <a href="#" class="btn btn-primary my-2">Sign The Guest Book</a>
+            </p>
+        </div>
+    </section>
 
-        <title>Laravel</title>
+    <div class="album py-5 bg-light">
+        <div class="container">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header"><h2>App Development</h2></div>
+                        <img class="card-img-top" src="{{ asset('img/pipes.jpg') }}" alt="Telecommunications Wires">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Checkout some of the technologies that I use to get business done.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a  href="#" class="btn btn-sm btn-outline-secondary">Software Development Resources</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h2>The Great Outdoors</h2>
+                        </div>
+                        <img class="card-img-top" src="{{ asset('img/deer.jpg') }}" alt="Hidden Deer">
+                        <div class="card-body">
+                            <p class="card-text">
+                                All things outside, adventure, exploration, conservancy and bushcraft.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Outdoor Hobbies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h2>Missoula, Montana</h2>
+                        </div>
+                        <img class="card-img-top" src="{{ asset('img/missoula.jpg') }}" alt="Missoula Train Tracks">
+                        <div class="card-body">
+                            <p class="card-text">I love this place! Checkout some of the things that make Missoula awesome.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">About Missoula</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+    </div>
+@endsection

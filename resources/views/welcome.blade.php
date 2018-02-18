@@ -7,7 +7,7 @@
                 This is my personal lab where I try out new and interesting things while sharing a bit with the world along the way.
             </p>
             <p>
-                <a href="#" class="btn btn-primary my-2">Sign The Guest Book</a>
+                <a href="{{ route('guestbook') }}" class="btn btn-primary my-2">Sign The Guest Book</a>
             </p>
         </div>
     </section>

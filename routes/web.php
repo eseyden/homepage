@@ -11,11 +11,16 @@
 |
 */
 
+Auth::routes();
+
+
 Route::view('/', 'welcome');
 
 Route::get('api/count','VisitApiController@count');
 Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider')->name('oauth-login');
 Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('guestbook','GuestBookController@index')->name('guestbook');
+Route::post('guestbook','GuestBookController@store');

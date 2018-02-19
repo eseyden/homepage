@@ -34,7 +34,7 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>&copy; Eric Seyden 20018, all images are my original work.</p>
+        <p>&copy; Eric Seyden {{ date('Y') }}, all images are my original work.</p>
         <p>Created with  <a href="https://getbootstrap.com/">Bootstrap 4</a> & <a href="https://laravel.com/">Laravel 5.6</a></p>
         <p>Now serving #<span id="counter"></span></p>
     </div>

@@ -18,15 +18,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <div class="card-header"><h2>App Development</h2></div>
+                        <div class="card-header"><h2 class="h3">Software Development</h2></div>
                         <img class="card-img-top" src="{{ asset('img/pipes.jpg') }}" alt="Telecommunications Wires">
                         <div class="card-body">
                             <p class="card-text">
-                                Checkout some of the technologies that I use to get business done.
+                                Examples of my work, technology tutorials, and resources.
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a  href="#" class="btn btn-sm btn-outline-secondary">Software Development Resources</a>
+                                    <a  href="{{route('apps')}}" class="btn btn-sm btn-outline-secondary">App Programming</a>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <div class="card-header">
-                            <h2>The Great Outdoors</h2>
+                            <h2 class="h3">The Great Outdoors</h2>
                         </div>
                         <img class="card-img-top" src="{{ asset('img/deer.jpg') }}" alt="Hidden Deer">
                         <div class="card-body">
@@ -53,7 +53,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <div class="card-header">
-                            <h2>Missoula, Montana</h2>
+                            <h2 class="h3">Missoula, Montana</h2>
                         </div>
                         <img class="card-img-top" src="{{ asset('img/missoula.jpg') }}" alt="Missoula Train Tracks">
                         <div class="card-body">

@@ -27,7 +27,29 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li>
+                            <a
+                                    class="nav-link @if(Route::currentRouteName() == 'apps') active @endif"
+                                    href="{{route('apps')}}"
+                            >
+                                Apps
+                            </a>
+                        </li>
+                        <li><a
+                                    class="nav-link @if(Route::currentRouteName() == 'outdoors') active @endif"
+                                    href="{{route('outdoors')}}"
+                            >
+                                Outdoors
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                    class="nav-link @if(Route::currentRouteName() == 'missoula') active @endif"
+                                    href="{{route('missoula')}}"
+                            >
+                                Missoula
+                            </a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

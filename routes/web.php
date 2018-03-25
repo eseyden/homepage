@@ -14,7 +14,11 @@
 Auth::routes();
 
 
-Route::view('/', 'welcome');
+Route::view('/', 'welcome.welcome');
+
+Route::view('apps','apps.home')->name('apps');
+Route::view('outdoors','outdoors.home')->name('outdoors');
+Route::view('missoula','missoula.home')->name('missoula');
 
 Route::get('api/count','VisitApiController@count');
 Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider')->name('oauth-login');

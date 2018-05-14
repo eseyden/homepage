@@ -18,15 +18,23 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <div class="card-header"><h2 class="h3">Software Development</h2></div>
+                        <div class="card-header">
+                            <h2 class="h3">
+                                <a href="{{route('apps')}}">
+                                    Software Development Portfolio
+                                </a>
+                            </h2>
+                        </div>
                         <img class="card-img-top" src="{{ asset('img/pipes.jpg') }}" alt="Telecommunications Wires">
                         <div class="card-body">
                             <p class="card-text">
-                                Examples of my work, technology tutorials, and resources.
+                                Software projects that that I've developed for the University of Montana.
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a  href="{{route('apps')}}" class="btn btn-sm btn-outline-secondary">App Programming</a>
+                                    <a  href="{{route('apps')}}" class="btn btn-sm btn-outline-secondary">
+                                        Software Development Portfolio
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +52,10 @@
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="#" class="btn btn-sm btn-outline-secondary">Outdoor Hobbies</a>
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">
+                                        Outdoor Hobbies
+                                        (placeholder)
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +71,9 @@
                             <p class="card-text">I love this place! Checkout some of the things that make Missoula awesome.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">About Missoula</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        About Missoula (placeholder)
+                                    </button>
                                 </div>
                             </div>
                         </div>

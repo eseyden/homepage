@@ -5,7 +5,7 @@
     <ul class="list-group">
         <li class="list-group-item">
             <h3>
-                <a href="m.umt.edu">University of Montana Mobile App</a>
+                <a href="https://m.umt.edu">University of Montana Mobile App</a>
             </h3>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">Open Hours</li>
